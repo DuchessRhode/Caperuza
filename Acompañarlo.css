@@ -125,7 +125,7 @@
 
     #B1 {
       float: left; 
-      margin: 1% 1% 15% 35%;
+      margin: 1% 1% 15% 25%;
       font-weight: 600;
 
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -143,7 +143,7 @@
 
    #B2 { 
      float: right; 
-     margin: 1% 35% 15% 1%;
+     margin: 1% 25% 15% 1%;
      font-weight: 600;
 
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
