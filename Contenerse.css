@@ -1,0 +1,217 @@
+* {
+    margin:0px; 
+    padding:0px; 
+    
+    }
+    
+    /*imagen de fondo del sitio*/
+    body,
+    html {
+       height: 100%;
+       background-image: url(contenerse.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;  /*esta línea de código hace que la imágen quede fija */
+       background-position: center; 
+       background-size: 100% 100%;
+    }
+    
+    /* Funte del título h 1*/ 
+    h1 {
+       font: bold 100px Garamond;
+       color: darkcyan;
+       text-align: center;
+    
+       
+       /* linear-gradient(90deg, darkslategray, darkcyan, darkgreen)   
+      /*(esto solo le modifica el fondo, como indica la pabra Fondo, backgropund) background: linear-gradient(90deg, darkslategray, darkcyan, darkgreen ) */
+    }
+     
+    /*Lo siguiente afecta al texto*/
+    #Voz-en-off {
+    
+       font: 20px Garamond;
+       color:white;
+       text-align: center; 
+    
+       /* background: none; */
+    /*   margin-top: 100px; */
+         margin: 15px 250px 5px 250px;
+    /* Arriba, derecha, abajo, izquierda */
+    }
+      #Madre { 
+       font: italic 23px Courier ;
+       color: burlywood;
+       text-align: right; 
+    
+       /* background: none; */
+    /*   margin-top: 100px; */
+         margin: 25px 250px 15px 250px;
+    /* Arriba, derecha, abajo, izquierda */  
+    }
+    
+    #Lobo {
+       font: italic 23px Courier ;
+       color: rgb(159, 173, 28);
+       text-align: right; 
+    
+       /* background: none; */
+    /*   margin-top: 100px; */
+         margin: 25px 250px 15px 250px;
+    /* Arriba, derecha, abajo, izquierda */  
+    }
+    
+    #Niña {
+       font: italic 23px Courier ;
+       color: rgb(165, 70, 94);
+       text-align: left; 
+    
+       /* background: none; */
+    /*   margin-top: 100px; */
+         margin: 25px 250px 15px 250px;
+    /* Arriba, derecha, abajo, izquierda */  
+    }
+
+
+    /*
+    #B1 {
+       font: italic 20px Curier;
+       border: 2px solid darkslategray;
+       border-radius: 12px; 
+    
+       float: left;
+    
+       margin-left: 250px;
+       text-align: center;
+       padding: 15px 35px ;
+    }
+    #B2 {
+    font: italic 20px Curier;
+       border: 2px solid darkslategray;
+       border-radius: 12px; 
+    
+       float: right; 
+       margin-right: 250px;
+       
+       text-align: center;
+       padding: 15px 35px ; }
+    
+    #Botones {
+       -webkit-transition-duration: 0.4s;
+       transition-duration: 0.4s;
+    }
+    
+    #Botones :hover {
+       background: red;
+       color: white;
+     }   */ 
+    
+
+     /*Responsive, es decir, que se adapte al dispositivo*/
+@media (max-width:420px) {
+
+   body,
+   html {
+      height: 100%;
+      background-image: url(contenersemovi.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;  /*esta línea de código hace que la imágen quede fija */
+      background-position: center; 
+      background-size: 100% 100%;
+   }
+   h1 {
+      font: bold 400% Garamond;
+      color: darkcyan;
+      text-align: center;
+   
+      
+      /* linear-gradient(90deg, darkslategray, darkcyan, darkgreen)   
+     /*(esto solo le modifica el fondo, como indica la pabra Fondo, backgropund) background: linear-gradient(90deg, darkslategray, darkcyan, darkgreen ) */
+   }
+
+
+   #Voz-en-off {
+      margin: 5% 5% 2% 5%;
+   }  
+   #Niña {
+      margin: 5% 5% 2% 5%;
+   }
+   #Lobo {
+      margin: 5% 5% 2% 5%;
+   }
+    #Madre {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off1 {
+      margin: 5% 5% 2% 5%;
+   } 
+   #Voz-en-off2 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off3 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off4 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off5 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off6 {
+      margin: 5% 5% 2% 5%;
+   }
+}
+
+@media (max-width:800px){
+
+   body,
+   html {
+      height: 100%;
+      background-image: url(contenersemovi.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;  /*esta línea de código hace que la imágen quede fija */
+      background-position: center; 
+      background-size: 100% 100%;
+   }
+   h1 {
+      font: bold 400% Garamond;
+      color: darkcyan;
+      text-align: center;
+   
+      
+      /* linear-gradient(90deg, darkslategray, darkcyan, darkgreen)   
+     /*(esto solo le modifica el fondo, como indica la pabra Fondo, backgropund) background: linear-gradient(90deg, darkslategray, darkcyan, darkgreen ) */
+   }
+
+
+   #Voz-en-off {
+      margin: 5% 5% 2% 5%;
+   }  
+   #Niña {
+      margin: 5% 5% 2% 5%;
+   }
+   #Lobo {
+      margin: 5% 5% 2% 5%;
+   }
+    #Madre {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off1 {
+      margin: 5% 5% 2% 5%;
+   } 
+   #Voz-en-off2 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off3 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off4 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off5 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off6 {
+      margin: 5% 5% 2% 5%;
+   }
+}
+

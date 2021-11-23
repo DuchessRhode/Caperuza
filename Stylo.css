@@ -1,0 +1,302 @@
+* {
+margin:0px; 
+padding:0px; 
+
+}
+
+/*imagen de fondo del sitio*/
+body,
+html {
+   height: 100%;
+   background-image: url(fondo12.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;  /*esta línea de código hace que la imágen quede fija */
+   background-position: center; 
+   background-size: 100% 100%;
+}
+
+/* Funte del título h 1*/ 
+h1 {
+   font: bold 80px Garamond;
+   color: rgba(0, 139, 139, 0.74);
+   text-align: center;
+
+   
+   /* linear-gradient(90deg, darkslategray, darkcyan, darkgreen)   
+  /*(esto solo le modifica el fondo, como indica la pabra Fondo, backgropund) background: linear-gradient(90deg, darkslategray, darkcyan, darkgreen ) */
+}
+ 
+/*Lo siguiente afecta al texto*/
+#Voz-en-off {
+
+   font: 20px Garamond;
+   color:white;
+   text-align: center; 
+
+   /* background: none; */
+/*   margin-top: 100px; */
+     margin: 15px 250px 5px 250px;
+/* Arriba, derecha, abajo, izquierda */
+}
+  #Madre { 
+   font: italic 23px Courier ;
+   color: burlywood;
+   text-align: right; 
+
+   /* background: none; */
+/*   margin-top: 100px; */
+     margin: 25px 250px 15px 250px;
+/* Arriba, derecha, abajo, izquierda */  
+}
+
+#Lobo {
+   font: italic 23px Courier ;
+   color: rgb(159, 173, 28);
+   text-align: right; 
+
+   /* background: none; */
+/*   margin-top: 100px; */
+     margin: 25px 250px 15px 250px;
+/* Arriba, derecha, abajo, izquierda */  
+}
+
+#Niña {
+   font: italic 23px Courier ;
+   color: rgb(165, 70, 94);
+   text-align: left; 
+
+   /* background: none; */
+/*   margin-top: 100px; */
+     margin: 25px 250px 15px 250px;
+/* Arriba, derecha, abajo, izquierda */  
+}
+
+
+#B1 {
+   float: left; 
+   margin: 1% 1% 15% 35%;
+   font-weight: 600;
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: brown;
+   border: 25px solid rgba(130, 139, 3, 0.171);
+   text-decoration: none;
+   background-color: rgba(20, 20, 20, 0.801);
+   text-align: center;  
+   border-radius: 12px;
+   
+
+
+
+}
+
+#B2 { 
+  float: right; 
+  margin: 1% 35% 15% 1%;
+  font-weight: 600;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: brown;
+  border: 25px solid rgba(130, 139, 3, 0.171);
+  text-decoration: none;
+  background-color: rgba(20, 20, 20, 0.514);
+  text-align: center;  
+  border-radius: 12px;
+   
+}
+
+
+
+
+  /*tablets */
+ @media (max-width:800px){
+    
+   body,
+   html {
+      height: 100%;
+      background-image: url(fondo1movi.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;  /*esta línea de código hace que la imágen quede fija */
+      background-position: center; 
+      background-size: 100% 100%;
+   }
+
+
+
+/* Funte del título h 1*/ 
+      h1 {
+           font: bold 350% Garamond;
+           color: rgba(0, 139, 139, 0.774);
+           text-align: center;
+
+   
+     /* linear-gradient(90deg, darkslategray, darkcyan, darkgreen)   
+     /*(esto solo le modifica el fondo, como indica la pabra Fondo, backgropund) background: linear-gradient(90deg, darkslategray, darkcyan, darkgreen ) */
+    }
+
+
+
+   #Voz-en-off {
+      margin: 5% 5% 2% 5%;
+   }  
+   #Niña {
+      margin: 5% 5% 2% 5%;
+   }
+   #Lobo {
+      margin: 5% 5% 2% 5%;
+   }
+    #Madre {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off1 {
+      margin: 5% 5% 2% 5%;
+   } 
+   #Voz-en-off2 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off3 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off4 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off5 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off6 {
+      margin: 5% 5% 2% 5%;
+   }
+
+
+
+
+    #B1 {
+   float: left; 
+   margin: 1% 1% 15% 25%;
+   font-weight: 600;
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: brown;
+   border: 15px solid rgba(130, 139, 3, 0.171);
+   text-decoration: none;
+   background-color: rgba(20, 20, 20, 0.514);
+   text-align: center;  
+   border-radius: 12px;
+   
+
+
+
+}
+
+     #B2 { 
+  float: right; 
+  margin: 1% 25% 15% 1%;
+  font-weight: 600;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: brown;
+  border: 15px solid rgba(130, 139, 3, 0.171);
+  text-decoration: none;
+  background-color: rgba(20, 20, 20, 0.514);
+  text-align: center;  
+  border-radius: 12px;
+     }
+
+}
+
+
+/*Responsive, es decir, que se adapte al dispositivo*/
+@media (max-width:420px){
+
+   body,
+   html {
+      height: 100%;
+      background-image: url(fondo1movi.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;  /*esta línea de código hace que la imágen quede fija */
+      background-position: center; 
+      background-size: 100% 100%;
+   }
+   
+   h1 {
+   font: bold 350% Garamond;
+   color: rgba(0, 139, 139, 0.774);
+   text-align: center;
+
+   
+   /* linear-gradient(90deg, darkslategray, darkcyan, darkgreen)   
+  /*(esto solo le modifica el fondo, como indica la pabra Fondo, backgropund) background: linear-gradient(90deg, darkslategray, darkcyan, darkgreen ) */
+}
+
+
+
+   #Voz-en-off {
+      margin: 5% 5% 2% 5%;
+   }  
+   #Niña {
+      margin: 5% 5% 2% 5%;
+   }
+   #Lobo {
+      margin: 5% 5% 2% 5%;
+   }
+    #Madre {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off1 {
+      margin: 5% 5% 2% 5%;
+   } 
+   #Voz-en-off2 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off3 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off4 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off5 {
+      margin: 5% 5% 2% 5%;
+   }
+   #Voz-en-off6 {
+      margin: 5% 5% 2% 5%;
+   }
+
+
+
+
+#B1 {
+   float: left; 
+   margin: 1% 1% 15% 7%;
+   font-weight: 600;
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: brown;
+   border: 15px solid rgba(130, 139, 3, 0.171);
+   text-decoration: none;
+   background-color: rgba(20, 20, 20, 0.801);
+   text-align: center;  
+   border-radius: 12px;
+   
+
+
+
+}
+
+#B2 { 
+  float: right; 
+  margin: 1% 7% 15% 1%;
+  font-weight: 600;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: brown;
+  border: 15px solid rgba(130, 139, 3, 0.171);
+  text-decoration: none;
+  background-color: rgba(20, 20, 20, 0.514);
+  text-align: center;  
+  border-radius: 12px;
+   
+
+
+
+}
+}
